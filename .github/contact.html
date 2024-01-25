@@ -1,11 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="stylecontact.css">
 </head>
 <body>
+    <header>
     
+    </header>
+    <!--créer le corpt de la page-->
+    <form action="url:" method="get">
+    <main>
+        
+<h1 id="contact">contact</h1>  
+<a id="tel" href="tel:+243818086643"><p>Phone<br>+243818086643</p></a>
+<a id="couriel" href="mailto:rachelmashaury1@gmal.com"><p>Email<br>rachelmashaury1@gmal.com</p> </a>
+<section>
+<p id="prenombox">
+    
+    <label for="prenom">First Name:</label><br> <!--placeholder permet de preremplire un champ!-->
+    <input type="text" name="prenom" id="prenom" placeholder="Ex. : Masha"x" autofocus required>
+</p>
+<p id="nombox"> 
+    <label for="nom">Last Name:</label><!--autofocus permet de placer automentiquement le curseur dans un un champ!-->
+    <input type="text" name="nom" id="nom" placeholder="Ex. : Mashaury" required>
+</p><!--required permet de rendre obligatoire un champ de saisie!--> 
+<p id="mailbox">
+<label for="mail">Email:</label><br>
+ <input type="email" name="mail" id="mail" placeholder="Ex. : mashara@gmail.com"  required>
+</p>
+<p id="subjectbox">
+ <label for="subject">Subject</label><br> <!--placeholder permet de preremplire un champ!-->
+ <input type="text" name="subject" id="subject" required>
+</p>
+
+ <p id="messagebox">
+    <label for="message">Mesage </label><br>
+   <textarea name="message" id="message"></textarea>
+</p>
+<input type="submit" value="Envoyer">
+</section>
+
+
+
+
+</form>
+</main>
 </body>
 </html>
