@@ -1,0 +1,178 @@
+h1{
+    width: 121px;
+    height: 50px;
+    top: 218px;
+    left: 246px;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+    }
+#tel{
+
+width: 139px;
+height: 36px;
+top: 46px;
+
+/*style du texte*/
+font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 43px;
+letter-spacing: 0em;
+text-align: left;
+text-decoration: none;
+color: #000;
+
+    }
+#couriel{
+width: 139px;
+height: 36px;
+top: 46px;
+
+/*style du texte*/
+font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 43px;
+letter-spacing: 0em;
+text-align: left;
+text-decoration: none;
+color: #000;
+    }
+#prenombox{
+    
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+#prenom{
+    width: 290px;
+    height: 33px;
+    border: 2px;
+    border: 2px solid #000000;
+        }
+#nombox{
+    
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 36px;
+            letter-spacing: 0em;
+            text-align: left;
+     }
+#nom{
+            width: 290px;
+            height: 33px;
+            border: 2px;
+            border: 2px solid #000000;
+    }
+#mailbox{
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+#mail{
+        width: 290px;
+        height: 33px;
+        border: 2px;
+        border: 2px solid #000000;
+    }
+#subjectbox{
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+#subject{
+        width: 290px;
+        height: 33px;
+        border: 2px;
+        border: 2px solid #000000;
+    }
+#messagebox{
+    width: 86px;
+    height: 36px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+#message{
+    width: Fixed (294px);
+    height: Fixed (239px);
+    top: 473px;
+    left: 885px;
+    gap: 16px;
+    
+    }
+section{
+    display: flex;
+    display:table-cell;
+    flex-direction: row;
+    }
+#bouton{
+        width: 120px; /*Fixed (191px)*/
+        height: 120px;
+        top: 532px;
+        left: 1214px;
+        padding: 10px;
+        border-radius: 100px;
+        border: 1px;
+        gap: 10px;
+background: linear-gradient(0deg, #d49714e3, #e3a623f2),
+linear-gradient(0deg, #EEA302, #ecb43b);
+border: 1px solid #593E03;
+
+/*propriété du texte*/
+font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+    }
+textarea{
+width: 100px;
+height: 100px;
+top: 559px;
+left: 1029px;
+
+width: 294px;
+height: 187px;
+border: 2px;
+background: white;
+border: 2px solid #000000;
+}
+main{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#box1,#box2{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+#box1{
+    margin-right: 5%;
+}
+form{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 2% 10% 6% 10%;
+    margin-top: 150px;
+}
