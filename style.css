@@ -22,28 +22,28 @@ nav ul {
     color: #ecf0f1;
     background: #2980b9;
   }
-  nav menu--item{
+.menu--style{
     width: 391px;
-height: 39px;
-top: 5px;
-left: 69px;
-font-family: Inter;
-font-size: 22px;
-font-weight: 200;
-line-height: 39px;
-letter-spacing: 0em;
-text-align: left;
-margin-right: 0%;
+    height: 39px;
+    top: 5px;
+    left: 69px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 0%;
   }
  
-  nav .cv + .proj::before {
+  nav .menu__style--cv+ .menu__style--projet::before {
     content: "|";
     float: left;
     margin-top: 15px;
     width: 3px;
     line-height: 7px;
   }
-  nav .proj + .contact::before {
+  nav .menu__style--projet + .menu__style--contact::before {
     content: "|";
     float: left;
    
@@ -52,21 +52,21 @@ margin-right: 0%;
     line-height: 7px;
 }
 
-.contact{
-width: 391px;
-height: 39px;
-top: 5px;
-left: 69px;
-font-family: Inter;
-font-size: 22px;
-font-weight: 200;
-line-height: 39px;
-letter-spacing: 0em;
-text-align: left;
-padding-top: 1%;
-padding-right: 1%;
+.menu__style--contact{
+    width: 391px;
+    height: 39px;
+    top: 5px;
+    left: 69px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 1%;
+    padding-right: 1%;
 }
-.manu--cv{
+.menu__style--cv{
     border-top: 1px;
     margin-top: 1px;
 }
@@ -84,11 +84,10 @@ color:black;
 padding-right: 60%;
 margin-left: 0%;
 }
-nav{
+nav .menu--style{
 width: 1200px;
 height: 50px;
 top: 2px;
-left: 88px;
 
 }
 
@@ -167,7 +166,7 @@ section .menu--item{
     section .menu--item--contact{
         background-color: rgb(0, 174, 255);
     }
-    .piedpage{
+    .footer{
         position: absolute;
         bottom: 0%;
         margin-bottom: 0%;
@@ -187,7 +186,7 @@ section .menu--item{
     }
     
     /*ici, j'organise l'alignement de mon pied de page*/
-    nav{
+    .footer__nav{
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -196,39 +195,16 @@ section .menu--item{
     
         }
     
-    #tel,
-    #couriel,
-    #contact{
+    .footer--item{
         color: black;
         text-decoration: none;
         word-spacing: normal;
-        margin-right: auto;
-    margin-left: auto;
-    }
-    #tel{
-        margin-right: auto;
-    margin-left: auto;
-        font-size: 1.2rem;
-        font-weight: bold;
-        
-    }
-    #couriel{
-        margin-right: auto;
+        margin-right: auto; 
         margin-left: auto;
         font-size: 1.2rem;
         font-weight: bold;
-        
     }
-    
-    #suiveznous{  
-    
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-decoration: none;
-    margin-right: auto;
-    margin-left: auto;
-    
-    }
+   
     iconify-icon{
     color: black;
     }
