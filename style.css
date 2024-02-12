@@ -22,7 +22,7 @@ nav ul {
     color: #ecf0f1;
     background: #2980b9;
   }
-  nav #cv,#proj,#contact{
+  nav menu--item{
     width: 391px;
 height: 39px;
 top: 5px;
@@ -36,14 +36,14 @@ text-align: left;
 margin-right: 0%;
   }
  
-  nav #cv + #proj::before {
+  nav .cv + .proj::before {
     content: "|";
     float: left;
     margin-top: 15px;
     width: 3px;
     line-height: 7px;
   }
-  nav #proj + #contact::before {
+  nav .proj + .contact::before {
     content: "|";
     float: left;
    
@@ -52,7 +52,7 @@ margin-right: 0%;
     line-height: 7px;
 }
 
-#contact{
+.contact{
 width: 391px;
 height: 39px;
 top: 5px;
@@ -66,12 +66,12 @@ text-align: left;
 padding-top: 1%;
 padding-right: 1%;
 }
-#barcv{
+.manu--cv{
     border-top: 1px;
     margin-top: 1px;
 }
 
-#nomcomplet{
+.menu__item--logo{
     width: 1348px;
 height: 50px;
 font-family: Inter;
@@ -93,13 +93,13 @@ left: 88px;
 }
 
 
-.monimage1{/*nous appelons la classe fig1 créée dans notre HTML, puis nous rendons l"image flexible (flex), puis nous la cenrons.*/
+.picture--mypicture{/*nous appelons la classe fig1 créée dans notre HTML, puis nous rendons l"image flexible (flex), puis nous la cenrons.*/
         display: flex;
         flex-direction: column;
         background-color: white;
         margin-top: 100px;
 }
-img{/*nous determinons la taille de l'image en appelant l'attribut img.*/
+.picture--mypicture{/*nous determinons la taille de l'image en appelant l'attribut img.*/
         width: 284px;
         height: 284px;
         left: 219px;
@@ -111,7 +111,7 @@ img{/*nous determinons la taille de l'image en appelant l'attribut img.*/
         margin-left: 300px;
         padding: 1px;  
 }
-.hellosection{
+.Hello{
        position:absolute;
        top: 170px;
         color: #593E03;
@@ -121,19 +121,19 @@ img{/*nous determinons la taille de l'image en appelant l'attribut img.*/
         margin-left: 650px;
         margin-right: 300px;
     }
-#helloword{
+.Hello--word{
         font-size: 3rem;
         font-weight: bold;
         margin-top: 1px;
         margin-bottom: 20px;
     }
-#apropos{
+.Hello--apropos{
         font-size: 1.5rem;
         font-weight: bold;
         margin-top: 1px;
         margin-bottom: 1px;
     }
-#monpragraph{
+.Hello--paragraph{
         font-size: 0.9rem;
         font-weight: lighter;
         font-style: oblique;
@@ -142,39 +142,30 @@ img{/*nous determinons la taille de l'image en appelant l'attribut img.*/
         margin-right: auto;
         margin-bottom: 30px;
     }
-#cv1{
+
+
+section .menu--item{
         display: inline;
         background-color: yellow;
         text-decoration: none;
-        border-radius: 70px;
-        top: 20px;
-        /*margin-bottom: 15px;*/
-        padding: 1rem;
-        color: black;
-    }
-#projet1{
-        display: inline;
-        background-color: rgb(255, 0, 0);
-        text-decoration: none;
-        border-radius: 70px;
-        height: 10rem;
-        width: 10rem;
-        margin: 10px;
+        border-radius: 90px;
+        height: 100rem;
+        width: 100rem;
+        margin: 20px;
         padding: 1px;
-        top: 20px;
+        top: 50px;
         /*margin-bottom: 15px;*/
         padding: 1rem;
         color: black;
     }
-#contact1{
-        display: inline;
+    section .menu--item--cv{
+        background-color: yellow;
+    }
+    section .menu--item--projet{
+        background-color: rgb(255, 0, 0);
+    }
+    section .menu--item--contact{
         background-color: rgb(0, 174, 255);
-        text-decoration: none;
-        border-radius: 70px;
-        top: 20px;
-        /*margin-bottom: 15px;*/
-        padding: 1rem;
-        color: black;
     }
     .piedpage{
         position: absolute;
