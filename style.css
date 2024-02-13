@@ -22,74 +22,88 @@ nav ul {
     color: #ecf0f1;
     background: #2980b9;
   }
-.menu--style{
+nav .menu--item{
     width: 391px;
-    height: 39px;
-    top: 5px;
-    left: 69px;
-    font-family: Inter;
-    font-size: 22px;
-    font-weight: 200;
-    line-height: 39px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-right: 0%;
-  }
- 
-  nav .menu__style--cv+ .menu__style--projet::before {
-    content: "|";
-    float: left;
-    margin-top: 15px;
-    width: 3px;
-    line-height: 7px;
-  }
-  nav .menu__style--projet + .menu__style--contact::before {
-    content: "|";
-    float: left;
-   
-    margin-top: 15px;
-    width: 3px;
-    line-height: 7px;
-}
 
-.menu__style--contact{
-    width: 391px;
-    height: 39px;
-    top: 5px;
-    left: 69px;
-    font-family: Inter;
-    font-size: 22px;
-    font-weight: 200;
-    line-height: 39px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding-top: 1%;
-    padding-right: 1%;
+margin-top: 2%;
+margin-left: 500px;
+font-family: Inter;
+font-size: 22px;
+font-weight: 200;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+margin-right: 0%;
+
+  }
+
+ 
+  .menu__style--cv + .menu__style--projet ::before{
+    content: "|";
+    float: left;
+    margin-top: 15px;
+    width: 3px;
+    line-height: 7px;
+  }
+  .menu__style--projet + .menu__style--contact::before {
+    content: "|";
+    float: left;
+    margin-top: 15px;
+    width: 3px;
+    line-height: 7px;
 }
 .menu__style--cv{
-    border-top: 1px;
-    margin-top: 1px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-right: 0px;
+    padding-left: 0px;
+    }
+/*.................. "Adding some specification on bouton projet" ........................*/
+.menu__style--projet{
+font-family: Inter;
+font-size: 22px;
+font-weight: 200;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+padding-right: 0px;
+padding-left: 0px;
+}
+/*.................. "Adding some specification on bouton contact" ........................*/
+.menu__style--contact{
+font-family: Inter;
+font-size: 22px;
+font-weight: 200;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+padding-right: 0px;
+padding-left: 0px;
 }
 
 .menu__item--logo{
-    width: 1348px;
-height: 50px;
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
-color:black;
-padding-right: 60%;
-margin-left: 0%;
+    margin-top: 2%;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:black;
+    margin-right: 80px;
 }
-nav .menu--style{
-width: 1200px;
-height: 50px;
-top: 2px;
-
-}
+.menu--style{
+    width: 1200px;
+    height: 50px;
+    top: 2px;
+    margin-left: 88px;
+    display: flex;
+    }
+    
 
 
 .picture--mypicture{/*nous appelons la classe fig1 créée dans notre HTML, puis nous rendons l"image flexible (flex), puis nous la cenrons.*/
@@ -139,31 +153,44 @@ top: 2px;
         line-height: 20pt;/*nous definisons les interligne*/
         margin-top: 7px;
         margin-right: auto;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
     }
 
 
 section .menu--item{
         display: inline;
-        background-color: yellow;
-        text-decoration: none;
-        border-radius: 90px;
-        height: 100rem;
-        width: 100rem;
-        margin: 20px;
-        padding: 1px;
-        top: 50px;
-        /*margin-bottom: 15px;*/
-        padding: 1rem;
-        color: black;
     }
     section .menu--item--cv{
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        top: 50px;
+        padding: 2rem;
+        text-decoration: none;
+        border-radius: 50px;
+        color: black;
         background-color: yellow;
     }
     section .menu--item--projet{
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        top: 50px;
+        padding: 2rem;
+        text-decoration: none;
+        border-radius: 50px;
+        color: black;
         background-color: rgb(255, 0, 0);
     }
     section .menu--item--contact{
+        height: 500px;
+        width: 500px;
+        margin: 10px;
+        top: 50px;
+        padding: 2rem;
+        text-decoration: none;
+        border-radius: 50px;
+        color: black;
         background-color: rgb(0, 174, 255);
     }
     .footer{
