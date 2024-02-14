@@ -247,3 +247,7 @@ section .menu--item{
     justify-content: space-between;
     }
     
+/* "============================== Media Query =======================================" */
+@media screen and (max-width: 1024px) {
+    
+}
