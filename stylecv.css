@@ -209,4 +209,57 @@ margin-left: auto;
 div{
 justify-content: space-between;
 }
-
+/* "============================== Media Query =======================================" */
+@media screen and (max-width: 1024px) {
+  .menu__item--logo{  /* "precising some behavior on the container Hello" */
+       display: flex;
+       margin-left : 5px;
+   }
+   .main--style{
+       display: flex;
+       flex-direction:column-reverse ;
+       justify-content: center;
+       margin-top: 5%;
+       padding-top: 5%;
+   }
+   .picture--mypicture{
+       width: 284px;
+       height: 284px;
+       left: 219px;
+       outline: 1px ridge rgb(255, 254, 255);
+       border-radius: 50%;
+       background-color: gray;
+       filter: grayscale(0%);
+       margin-left: 300px;
+       padding: 1px;  
+   }
+   .picture--style{
+       display: flex;
+       align-items: center; 
+        padding-right: 25%;
+   }
+   .Hello--style{
+       display: flex;
+       flex-direction: column;
+       margin: 10px 50px 20px;
+       margin-top: 50%;
+       text-align: center;
+       
+   }
+   .Hello--paragraph{
+       display: flex;
+       padding-left: 10%;
+       padding-right: 10%;
+       text-align:justify;
+      
+   }
+/*=============== "precising some behavior on the container Hello"======================== */
+.footer__nav--display{
+   display: flex;
+       flex-direction: column;
+       margin: 10px 50px 20px;
+       margin-top: 10%;
+       text-align: center;
+       line-height: 2.5;
+}
+}
