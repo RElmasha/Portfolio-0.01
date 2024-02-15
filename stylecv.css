@@ -20,9 +20,9 @@ nav li a {
 }
 nav li a:hover {
   color: #ecf0f1;
-  background: #2980b9;
+  
 }
-nav #cv,#proj,#contact{
+.ul--item{
   width: 391px;
 height: 39px;
 top: 5px;
@@ -36,14 +36,14 @@ text-align: left;
 margin-right: 0%;
 }
 
-nav #cv + #proj::before {
+nav .nav__header--cv + .nav__header--projet::before {
   content: "|";
   float: left;
   margin-top: 15px;
   width: 3px;
   line-height: 7px;
 }
-nav #proj + #contact::before {
+nav .nav__header--projet + .nav__header--contact::before {
   content: "|";
   float: left;
  
@@ -52,26 +52,12 @@ nav #proj + #contact::before {
   line-height: 7px;
 }
 
-#contact{
-width: 391px;
-height: 39px;
-top: 5px;
-left: 69px;
-font-family: Inter;
-font-size: 22px;
-font-weight: 200;
-line-height: 39px;
-letter-spacing: 0em;
-text-align: left;
-padding-top: 1%;
-padding-right: 1%;
-}
 #barcv{
   border-top: 1px;
   margin-top: 1px;
 }
 
-#nomcomplet{
+.nav__header--logo{
   width: 1348px;
 height: 50px;
 font-family: Inter;
@@ -84,16 +70,20 @@ color:black;
 padding-right: 60%;
 margin-left: 0%;
 }
-nav{
+.nav__header--style{
   width: 1200px;
   height: 50px;
   top: 2px;
   left: 88px;
-  
+  display: flex;
+flex-direction: row;
+background-color: white;
+margin-top: 50px;
+margin-left: 90px;
   }
 
   /*création du corp*/
-#cvcv{
+.title--style{
   width: 359px;
   height: 50px;
   top: 169px;
@@ -106,7 +96,8 @@ nav{
   text-align: left;
     
 }
-#pro,#backend,#react,#expertise,#langues{
+
+#pro,#backend,#react,#expertise,.main--langues{
   width: 386.96px;
   height: 72px;
   font-family: Inter;
@@ -125,22 +116,22 @@ nav{
  margin-top: 60px;
     
 }
-.listelangue{
+.main__langues--listelangue{
   list-style: circle;
   overflow: visible;
   color: black;
 }
-main{
+.main--style{
   margin-left: 100px;
   margin-right: 100px;
 }
 
-/*Ici commence mon pied de page*/.piedpage{
+.footer--style{
   position: absolute;
   bottom: 0%;
   margin-bottom: 0%;
   padding-bottom: 0%;
-  top: 100%;
+  top: 180%;
   width: 92%;
   height: 3px;
   margin-top: 100px;
@@ -152,10 +143,11 @@ main{
 .hr{
   border-bottom: 1px solid black;
   width: 92%;
+  background-color: #2980b9;
 }
 
 /*ici, j'organise l'alignement de mon pied de page*/
-nav{
+.footer__nav{
 display: flex;
 flex-direction: row;
 background-color: white;
@@ -164,41 +156,20 @@ margin-left: 90px;
 
   }
 
-#tel,
-#couriel,
-#contact{
+.footer--item{
   color: black;
   text-decoration: none;
   word-spacing: normal;
-  margin-right: auto;
-margin-left: auto;
-}
-#tel{
-  font-size: 1.2rem;
-  font-weight: bold;
-  
-}
-#couriel{
-  margin-right: auto;
+  margin-right: auto; 
   margin-left: auto;
   font-size: 1.2rem;
   font-weight: bold;
-  
 }
 
-#suiveznous{  
-
-font-size: 1.2rem;
-font-weight: bold;
-text-decoration: none;
-margin-right: auto;
-margin-left: auto;
-
-}
 iconify-icon{
 color: black;
 }
-#copyright{
+.copyright--style{
 margin-left: 100px;
 font-size: 1.2rem;
 font-weight: bold;
@@ -209,57 +180,105 @@ margin-left: auto;
 div{
 justify-content: space-between;
 }
-/* "============================== Media Query =======================================" */
-@media screen and (max-width: 1024px) {
-  .menu__item--logo{  /* "precising some behavior on the container Hello" */
-       display: flex;
-       margin-left : 5px;
-   }
-   .main--style{
-       display: flex;
-       flex-direction:column-reverse ;
-       justify-content: center;
-       margin-top: 5%;
-       padding-top: 5%;
-   }
-   .picture--mypicture{
-       width: 284px;
-       height: 284px;
-       left: 219px;
-       outline: 1px ridge rgb(255, 254, 255);
-       border-radius: 50%;
-       background-color: gray;
-       filter: grayscale(0%);
-       margin-left: 300px;
-       padding: 1px;  
-   }
-   .picture--style{
-       display: flex;
-       align-items: center; 
-        padding-right: 25%;
-   }
-   .Hello--style{
-       display: flex;
-       flex-direction: column;
-       margin: 10px 50px 20px;
-       margin-top: 50%;
-       text-align: center;
+/* ======================================= Media Query ====================================  */
+
+/* ======================================= Media Query ====================================  */
+@media  screen and (max-width: 1024px) {
+  /* Adjustments for screens with a maximum width of 1024px */
+  /* Ici commence l"entête */
+  .ul--item{
+    max-inline-size: 30%;
+    max-width: 100px;
+    max-height: 100%;
+    padding-left: 15%;
+    padding-left: 15%;
+    padding-bottom: 19%;
+    margin-left: 0%;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    }
+    .nav__header--logo{
+    max-width: 100px;
+    max-height: 100%;
+    max-inline-size: 20%;
+    padding-right: 0%;
+    margin-left: 0%;
+    padding-bottom: 19%;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:black;
+    font-weight: bold;
+    }
+
+    .title--style{
+      padding-top: auto;
+      margin-top: auto;
+    }
+    
+    .main__langues--listelangue{
+      text-align: left;
+      padding-left: 0%;
+    }
+    .nav__footer--style{
+      display: flex;
+      max-width: 200px;
+      max-height: 100%;
+      max-inline-size: 20%;
+      padding-right: 5%;
+      margin-left: 5%;
+      justify-content: space-between;
+    }
+    .nav__footer--tel{
+      padding-right: 10%;
+      margin-right: 30%;
+    }
+    .nav__footer--couriel{
+      padding-right: 10%;
+      margin-right: 30%;
+    }
+    .nav__footer--followUs{
+      max-width: 200px;
+      max-height: 200%;
+      max-inline-size: 500%;
+      padding-right: 20%;
+      margin-right: 30%;
+    justify-content: space-between;
+    }
+    .copyright--style{
+      margin-left: 100px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: black;
+      margin-right: auto;
+      margin-left: auto;
+      display: flex;
+      flex-direction: column;
+      background-color: aqua;
+      }
+      .footer--style{
        
-   }
-   .Hello--paragraph{
-       display: flex;
-       padding-left: 10%;
-       padding-right: 10%;
-       text-align:justify;
-      
-   }
-/*=============== "precising some behavior on the container Hello"======================== */
-.footer__nav--display{
-   display: flex;
-       flex-direction: column;
-       margin: 10px 50px 20px;
-       margin-top: 10%;
-       text-align: center;
-       line-height: 2.5;
-}
-}
+        position: absolute;
+        bottom: 0%;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        top: 100%;
+        width: 92%;
+        height: 3px;
+        margin-top: 100px;
+        padding-top: 100px;
+        
+      }
+    .iconify-icon{
+          color: black;
+          justify-content: space-between;
+        }
+/* ======================================= Media Query ====================================  */
