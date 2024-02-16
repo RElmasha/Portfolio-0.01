@@ -85,6 +85,7 @@ margin-left: 90px;
   /*création du corp*/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .title--style{
 =======
 .style--cv{
@@ -92,6 +93,9 @@ margin-left: 90px;
 =======
 .title--style{
 >>>>>>> 09ab4db (adding responsive behavior on cv page)
+=======
+.title--style{
+>>>>>>> cee6dec (finalizing mdia query behavior on cv.html and stylecv.css)
   width: 359px;
   height: 50px;
   top: 169px;
@@ -106,12 +110,16 @@ margin-left: 90px;
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> faf998b (adding responsive behavior on cv page)
 =======
 
 >>>>>>> d6f5d1d (adding responsive behavior on cv page)
+=======
+
+>>>>>>> cee6dec (finalizing mdia query behavior on cv.html and stylecv.css)
 #pro,#backend,#react,#expertise,.main--langues{
   width: 386.96px;
   height: 72px;
@@ -142,11 +150,15 @@ margin-left: 90px;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .footer--style{
 =======
 /*Ici commence mon pied de page*/.footer--style{
 <<<<<<< HEAD
 >>>>>>> faf998b (adding responsive behavior on cv page)
+=======
+.footer--style{
+>>>>>>> cee6dec (finalizing mdia query behavior on cv.html and stylecv.css)
   position: absolute;
 =======
   position: relative;
@@ -171,10 +183,14 @@ margin-left: 90px;
 
 /*ici, j'organise l'alignement de mon pied de page*/
 <<<<<<< HEAD
+<<<<<<< HEAD
 .footer__nav{
 =======
 .nav__footer--style{
 >>>>>>> faf998b (adding responsive behavior on cv page)
+=======
+.footer__nav{
+>>>>>>> cee6dec (finalizing mdia query behavior on cv.html and stylecv.css)
 display: flex;
 flex-direction: row;
 background-color: white;
@@ -182,6 +198,7 @@ margin-top: 50px;
 margin-left: 90px;
   }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .footer--item{
   color: black;
@@ -205,11 +222,19 @@ margin-left: auto;
 .nav__footer--couriel{
   margin-right: auto;
 >>>>>>> d6f5d1d (adding responsive behavior on cv page)
+=======
+.footer--item{
+  color: black;
+  text-decoration: none;
+  word-spacing: normal;
+  margin-right: auto; 
+>>>>>>> cee6dec (finalizing mdia query behavior on cv.html and stylecv.css)
   margin-left: auto;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 .nav__footer--followUs{  
@@ -222,6 +247,8 @@ margin-left: auto;
 
 }
 >>>>>>> d6f5d1d (adding responsive behavior on cv page)
+=======
+>>>>>>> cee6dec (finalizing mdia query behavior on cv.html and stylecv.css)
 iconify-icon{
 color: black;
 }
@@ -239,7 +266,11 @@ justify-content: space-between;
 /* ======================================= Media Query ====================================  */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* ======================================= Media Query tablette====================================  */
+=======
+/* ======================================= Media Query ====================================  */
+>>>>>>> cee6dec (finalizing mdia query behavior on cv.html and stylecv.css)
 @media  screen and (max-width: 1024px) {
   /* Adjustments for screens with a maximum width of 1024px */
   /* Ici commence l"entête */
@@ -338,6 +369,7 @@ justify-content: space-between;
           color: black;
           justify-content: space-between;
         }
+<<<<<<< HEAD
 /* ======================================= Media Query ====================================  
 @media screen and (max-width: 800px) {
   /* Add your styles for screens smaller than 800px here
@@ -454,3 +486,6 @@ justify-content: space-between;
 =======
 }
 >>>>>>> d6f5d1d (adding responsive behavior on cv page)
+=======
+/* ======================================= Media Query ====================================  */
+>>>>>>> cee6dec (finalizing mdia query behavior on cv.html and stylecv.css)
