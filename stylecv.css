@@ -96,7 +96,10 @@ margin-left: 90px;
   text-align: left;
     
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> faf998b (adding responsive behavior on cv page)
 #pro,#backend,#react,#expertise,.main--langues{
   width: 386.96px;
   height: 72px;
@@ -126,7 +129,11 @@ margin-left: 90px;
   margin-right: 100px;
 }
 
+<<<<<<< HEAD
 .footer--style{
+=======
+/*Ici commence mon pied de page*/.footer--style{
+>>>>>>> faf998b (adding responsive behavior on cv page)
   position: absolute;
   bottom: 0%;
   margin-bottom: 0%;
@@ -147,13 +154,16 @@ margin-left: 90px;
 }
 
 /*ici, j'organise l'alignement de mon pied de page*/
+<<<<<<< HEAD
 .footer__nav{
+=======
+.nav__footer--style{
+>>>>>>> faf998b (adding responsive behavior on cv page)
 display: flex;
 flex-direction: row;
 background-color: white;
 margin-top: 50px;
 margin-left: 90px;
-
   }
 
 .footer--item{
@@ -182,6 +192,7 @@ justify-content: space-between;
 }
 /* ======================================= Media Query ====================================  */
 
+<<<<<<< HEAD
 /* ======================================= Media Query tablette====================================  */
 @media  screen and (max-width: 1024px) {
   /* Adjustments for screens with a maximum width of 1024px */
@@ -312,3 +323,26 @@ justify-content: space-between;
          
       }
 } */
+=======
+/* ======================================= Media Query ====================================  */
+
+@media screen and (max-height:768px) and (max-width: 1024px){
+  .main--style{
+    text-align: left;
+  }
+.main__langues--listelangue{
+  text-align: left;
+}
+.footer--style{ /* Footer Media Query */
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 10px 50px 20px 0;
+  font-size:100%
+    }
+
+}
+>>>>>>> faf998b (adding responsive behavior on cv page)
