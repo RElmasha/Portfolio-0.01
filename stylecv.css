@@ -83,7 +83,11 @@ margin-left: 90px;
   }
 
   /*création du corp*/
+<<<<<<< HEAD
 .title--style{
+=======
+.style--cv{
+>>>>>>> d6f5d1d (adding responsive behavior on cv page)
   width: 359px;
   height: 50px;
   top: 169px;
@@ -97,9 +101,13 @@ margin-left: 90px;
     
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> faf998b (adding responsive behavior on cv page)
+=======
+
+>>>>>>> d6f5d1d (adding responsive behavior on cv page)
 #pro,#backend,#react,#expertise,.main--langues{
   width: 386.96px;
   height: 72px;
@@ -133,8 +141,12 @@ margin-left: 90px;
 .footer--style{
 =======
 /*Ici commence mon pied de page*/.footer--style{
+<<<<<<< HEAD
 >>>>>>> faf998b (adding responsive behavior on cv page)
   position: absolute;
+=======
+  position: relative;
+>>>>>>> d6f5d1d (adding responsive behavior on cv page)
   bottom: 0%;
   margin-bottom: 0%;
   padding-bottom: 0%;
@@ -166,16 +178,46 @@ margin-top: 50px;
 margin-left: 90px;
   }
 
+<<<<<<< HEAD
 .footer--item{
   color: black;
   text-decoration: none;
   word-spacing: normal;
   margin-right: auto; 
+=======
+.nav__footer--tel,
+.nav__footer--couriel{
+  color: black;
+  text-decoration: none;
+  word-spacing: normal;
+  margin-right: auto;
+margin-left: auto;
+}
+.nav__footer--tel{
+  font-size: 1.2rem;
+  font-weight: bold;
+  
+}
+.nav__footer--couriel{
+  margin-right: auto;
+>>>>>>> d6f5d1d (adding responsive behavior on cv page)
   margin-left: auto;
   font-size: 1.2rem;
   font-weight: bold;
 }
 
+<<<<<<< HEAD
+=======
+.nav__footer--followUs{  
+
+font-size: 1.2rem;
+font-weight: bold;
+text-decoration: none;
+margin-right: auto;
+margin-left: auto;
+
+}
+>>>>>>> d6f5d1d (adding responsive behavior on cv page)
 iconify-icon{
 color: black;
 }
@@ -326,23 +368,82 @@ justify-content: space-between;
 =======
 /* ======================================= Media Query ====================================  */
 
-@media screen and (max-height:768px) and (max-width: 1024px){
+@media screen and (max-width: 1024px){
   .main--style{
     text-align: left;
+    padding: 0%;
+  }
+  .ul--item{
+    max-width: 100px;
+  max-height: 100%;
+  max-inline-size: 20%;
+  top: 5px;
+left: 69px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:black;
+  background-color: aquamarine;
+  }
+  .nav__header--logo{
+    max-width: 100px;
+  max-height: 100%;
+  max-inline-size: 20%;
+  padding-right: 0%;
+  margin-left: 0%;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:black;
   }
 .main__langues--listelangue{
   text-align: left;
+  padding: 0;
 }
-.footer--style{ /* Footer Media Query */
+.nav__footer--style{
   display: flex;
-  flex-direction: row;
-  background-color: white;
-
+  max-width: 200px;
+  max-height: 100%;
+  max-inline-size: 20%;
+  padding-right: 5%;
+  margin-left: 5%;
   justify-content: space-between;
+}
+.nav__footer--tel{
+  padding-right: 10%;
+  margin-right: 30%;
+}
+.nav__footer--couriel{
+  padding-right: 10%;
+  margin-right: 30%;
+}
+.nav__footer--followUs{
+  max-width: 2000px;
+  max-height: 100%;
+  max-inline-size: 50%;
+  padding-right: 20%;
+  margin-right: 30%;
+  justify-content: space-between;
+  background-color: aquamarine;
+}
+.copyright--style{
+  padding-right: 10%;
   max-width: 100%;
-  padding: 10px 50px 20px 0;
-  font-size:100%
+  }
+.iconify-icon{
+      color: black;
+      justify-content: space-between;
     }
+<<<<<<< HEAD
 
 }
 >>>>>>> faf998b (adding responsive behavior on cv page)
+=======
+}
+>>>>>>> d6f5d1d (adding responsive behavior on cv page)
