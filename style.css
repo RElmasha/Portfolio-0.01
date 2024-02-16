@@ -12,7 +12,7 @@ nav ul {
   }
   nav li a {
     display: block;
-    color: #2980b9;
+    color: #061016;
     text-decoration: none;
     text-align: center;
     line-height: 36px;
@@ -20,20 +20,7 @@ nav ul {
   }
   nav li a:hover {
     color: #ecf0f1;
-    background: #2980b9;
-  }
-  .ul--item{
-    width: 391px;
-  height: 39px;
-  top: 5px;
-  left: 69px;
-  font-family: Inter;
-  font-size: 22px;
-  font-weight: 200;
-  line-height: 39px;
-  letter-spacing: 0em;
-  text-align: left;
-  margin-right: 0%;
+
   }
   
   nav .nav__header--cv + .nav__header--projet::before {
@@ -58,119 +45,119 @@ nav ul {
   }
   
   .nav__header--logo{
-    width: 1348px;
-  height: 50px;
+   
   font-family: Inter;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0em;
+  font-size: 2rem;
+  font-weight: 10rem;
+  line-height: 2rem;
+  letter-spacing: 0rem;
   text-align: left;
   color:black;
-  padding-right: 60%;
-  margin-left: 0%;
+ padding-left: 70px;
+ 
   }
   .nav__header--style{
-    width: 1200px;
-    height: 50px;
-    top: 2px;
-    left: 88px;
     display: flex;
-  flex-direction: row;
+    justify-content: space-between ;
+    padding-top: 40px;
   background-color: white;
-  margin-top: 50px;
-  margin-left: 90px;
-    }
-  
 
+    }
+  .ul--item{
+    padding-right: 70px;
+      font-family: Inter;
+      font-size: 2rem;
+      font-weight: 10rem;
+      line-height: 2rem;
+      letter-spacing: 0rem;
+      text-align: left;
+      color:black;
+     
+    }
 
 .picture--mypicture{/*nous appelons la classe fig1 créée dans notre HTML, puis nous rendons l"image flexible (flex), puis nous la cenrons.*/
         display: flex;
         flex-direction: column;
         background-color: white;
-        margin-top: 100px;
+        /* margin-top: 100px; */
 }
 .picture--mypicture{/*nous determinons la taille de l'image en appelant l'attribut img.*/
         width: 284px;
         height: 284px;
         left: 219px;
-        
         outline: 1px ridge rgb(255, 254, 255);
         border-radius: 50%;
         background-color: gray;
         filter: grayscale(100%);
-        margin-left: 300px;
-        padding: 1px;  
+      /*   margin-left: 300px;
+        padding: 1px;   */
 }
-.Hello{
+/* .Hello--style{
        position:absolute;
-       top: 170px;
+       padding-top: 20px;
         color: #593E03;
         text-align: center;
         margin: auto;
         text-align:justify;
         margin-left: 650px;
         margin-right: 300px;
-    }
+    } */
 .Hello--word{
         font-size: 3rem;
         font-weight: bold;
-        margin-top: 1px;
-        margin-bottom: 20px;
+       /*  margin-top: 1px;
+        margin-bottom: 20px; */
     }
 .Hello--apropos{
         font-size: 1.5rem;
         font-weight: bold;
-        margin-top: 1px;
-        margin-bottom: 1px;
+       /*  margin-top: 1px;
+        margin-bottom: 1px; */
     }
 .Hello--paragraph{
         font-size: 0.9rem;
         font-weight: lighter;
         font-style: oblique;
         line-height: 20pt;/*nous definisons les interligne*/
-        margin-top: 7px;
+        /* margin-top: 7px;
         margin-right: auto;
-        margin-bottom: 60px;
+        margin-bottom: 60px; */
     }
 
+    .main--style{
+      display: flex;
+      justify-content: space-between;
+      max-width: 900px;
+      gap: 40px;
+      margin: auto;
+      margin-top: 150px;
+    }
 
-section .menu--item{
-        display: inline;
+section .menu--item--style{
+        display: flex;
+        gap: 1rem;
+    }
+    section .menu--item{
+        max-height: 50px;
+        max-width: 50px;
+        padding: 2rem;
+        text-decoration: none;
+        border-radius: 70px;
+        color: black;
+        text-align: center;
+        border: 1px black solid;
     }
     section .menu--item--cv{
-        height: 500px;
-        width: 500px;
-        margin: 10px;
-        top: 50px;
-        padding: 2rem;
-        text-decoration: none;
-        border-radius: 50px;
-        color: black;
-        background-color: yellow;
-    }
+      background-color: rgb(227, 238, 70);
+  }
     section .menu--item--projet{
-        height: 500px;
-        width: 500px;
-        margin: 10px;
-        top: 50px;
-        padding: 2rem;
-        text-decoration: none;
-        border-radius: 50px;
-        color: black;
         background-color: rgb(255, 0, 0);
     }
     section .menu--item--contact{
-        height: 500px;
-        width: 500px;
-        margin: 10px;
-        top: 50px;
-        padding: 2rem;
-        text-decoration: none;
-        border-radius: 50px;
-        color: black;
         background-color: rgb(0, 174, 255);
     }
+
+  /*   Start footer */
     .footer--style{
         position: absolute;
         bottom: 0%;
@@ -226,80 +213,29 @@ section .menu--item{
     justify-content: space-between;
     }
     
-/* "============================== Media Query able =======================================" */
+/* "============================== Media Query table =======================================" */
 @media screen and (max-width: 1024px) {
     /* Ici commence l"entête */
-    .ul--item{
-        max-inline-size: 30%;
-        max-width: 100px;
-        max-height: 100%;
-        padding-left: 15%;
-        padding-left: 15%;
-        padding-bottom: 19%;
-        margin-left: 0%;
+    .nav__header--style{
+      display: flex;
+      justify-content: space-between ;
+      padding-top: 20px;
+    background-color: white;
+  
+      }
+  .nav__header--logo{
+   
         font-family: Inter;
-        font-size: 20px;
-        font-weight: 700;
-        line-height: 20px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: black;
-        }
-        .nav__header--logo{
-        max-width: 100px;
-        max-height: 100%;
-        max-inline-size: 20%;
-        padding-right: 0%;
-        margin-left: 0%;
-        padding-bottom: 19%;
-        font-family: Inter;
-        font-size: 20px;
-        font-weight: 700;
-        line-height: 30px;
-        letter-spacing: 0em;
+        font-size: 1rem;
+        font-weight: 5rem;
+        line-height: 1rem;
+        letter-spacing: 0rem;
         text-align: left;
         color:black;
-        font-weight: bold;
+       padding-left: 10px;
+       
         }
-    .main--style{
-        display: flex;
-        flex-direction:column-reverse ;
-        justify-content: center;
-        
-    }
-    .picture--mypicture{
-       
-        max-width: 350px;
-        max-height: 100%;
-        left: 219px;
-        outline: 1px ridge rgb(255, 254, 255);
-        border-radius: 50%;
-        background-color: gray;
-        filter: grayscale(0%);
-        margin-left: 203px;
-        padding: 1px;  
-    }
-    .picture--style{
-        display: flex;
-        align-items: center; 
-         padding-right: 25%;
-    }
-    .Hello--style{
-        display: flex;
-        flex-direction: column;
-        margin: 10px 50px 20px;
-        margin-top:45%;
-        margin-bottom:45%;
-        text-align: center;
-        
-    }
-    .Hello--paragraph{
-        display: flex;
-        padding-left: 10%;
-        padding-right: 10%;
-        text-align:justify;
-       
-    }
+/* body */
    
 /*=============== "precising some behavior on the container Hello"======================== */
 .footer__nav--display{
@@ -316,9 +252,11 @@ section .menu--item{
 }
 }
 
+/* "============================== Media Query table =======================================" */
+
 /* Media Query for screens smaller than 600px */
 @media screen and (max-width: 667px) {
-    /* Add your styles for screens smaller than 600px here */
+    
     .nav__header--style{
         display: inline-block;
        text-align: center;
@@ -333,7 +271,7 @@ section .menu--item{
       }
     .main--style{
         display: flex;
-        flex-direction:column-reverse ;
+        flex-direction:column ;
         justify-content: center;
         
     }
@@ -346,8 +284,14 @@ section .menu--item{
     }
   }
   
-  /* Media Query for screens smaller than 800px */
-  @media screen and (max-width: 800px) {
+    .footer--style{
+      margin-top:100%;
+      padding: 0%;
+     
+  }
+  /* "============================== Media Query for screens smaller than 800px=======================================" */
+ 
+  @media screen and (max-width: 360px) {
     /* Add your styles for screens smaller than 800px here */
     .nav__header--style {
       width: 100%;
@@ -377,5 +321,36 @@ section .menu--item{
            
         }
   }
+/* "==============================Media Query for screens smaller than 320px =======================================" */
 
+  @media screen and (max-width: 320px) {
+   
+    .nav__header--style {
+      width: 100%;
+      justify-content: center;
+      margin-left: 0;
+    }
+    .ul--item, .nav__header--logo {
+      font-size: 14px;
+    }
+        .picture--style,
+        .footer__nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .Hello--style {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center; /* to center-align the text */
+          
+        }
+        .Hello--paragraph{
+            display: flex;
+          margin: 300px;
+            text-align:justify;
+           
+        }
+  }
   
