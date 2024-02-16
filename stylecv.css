@@ -111,6 +111,7 @@ margin-left: 90px;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> faf998b (adding responsive behavior on cv page)
@@ -120,6 +121,11 @@ margin-left: 90px;
 =======
 
 >>>>>>> cee6dec (finalizing mdia query behavior on cv.html and stylecv.css)
+=======
+
+=======
+>>>>>>> faf998b (adding responsive behavior on cv page)
+>>>>>>> 41908ca (restartint responsive behavoir)
 #pro,#backend,#react,#expertise,.main--langues{
   width: 386.96px;
   height: 72px;
@@ -151,6 +157,7 @@ margin-left: 90px;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 .footer--style{
 =======
 /*Ici commence mon pied de page*/.footer--style{
@@ -159,6 +166,12 @@ margin-left: 90px;
 =======
 .footer--style{
 >>>>>>> cee6dec (finalizing mdia query behavior on cv.html and stylecv.css)
+=======
+.footer--style{
+=======
+/*Ici commence mon pied de page*/.footer--style{
+>>>>>>> faf998b (adding responsive behavior on cv page)
+>>>>>>> 41908ca (restartint responsive behavoir)
   position: absolute;
 =======
   position: relative;
@@ -184,13 +197,19 @@ margin-left: 90px;
 /*ici, j'organise l'alignement de mon pied de page*/
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 41908ca (restartint responsive behavoir)
 .footer__nav{
 =======
 .nav__footer--style{
 >>>>>>> faf998b (adding responsive behavior on cv page)
+<<<<<<< HEAD
 =======
 .footer__nav{
 >>>>>>> cee6dec (finalizing mdia query behavior on cv.html and stylecv.css)
+=======
+>>>>>>> 41908ca (restartint responsive behavoir)
 display: flex;
 flex-direction: row;
 background-color: white;
@@ -268,6 +287,9 @@ justify-content: space-between;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 41908ca (restartint responsive behavoir)
 /* ======================================= Media Query tablette====================================  */
 =======
 /* ======================================= Media Query ====================================  */
@@ -408,10 +430,14 @@ justify-content: space-between;
          
       }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 41908ca (restartint responsive behavoir)
 } */
 =======
 /* ======================================= Media Query ====================================  */
 
+<<<<<<< HEAD
 @media screen and (max-width: 1024px){
   .ul--item{
   max-inline-size: 30%;
@@ -500,3 +526,25 @@ justify-content: space-between;
 =======
 } */
 >>>>>>> a19d711 (restarting the asseigment)
+=======
+@media screen and (max-height:768px) and (max-width: 1024px){
+  .main--style{
+    text-align: left;
+  }
+.main__langues--listelangue{
+  text-align: left;
+}
+.footer--style{ /* Footer Media Query */
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 10px 50px 20px 0;
+  font-size:100%
+    }
+
+}
+>>>>>>> faf998b (adding responsive behavior on cv page)
+>>>>>>> 41908ca (restartint responsive behavoir)
