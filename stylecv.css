@@ -182,7 +182,7 @@ justify-content: space-between;
 }
 /* ======================================= Media Query ====================================  */
 
-/* ======================================= Media Query ====================================  */
+/* ======================================= Media Query tablette====================================  */
 @media  screen and (max-width: 1024px) {
   /* Adjustments for screens with a maximum width of 1024px */
   /* Ici commence l"entête */
@@ -281,4 +281,34 @@ justify-content: space-between;
           color: black;
           justify-content: space-between;
         }
-/* ======================================= Media Query ====================================  */
+/* ======================================= Media Query ====================================  
+@media screen and (max-width: 800px) {
+  /* Add your styles for screens smaller than 800px here
+  .nav__header--style {
+    width: 100%;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .ul--item, .nav__header--logo {
+    font-size: 14px;
+  }
+      .picture--style,
+      .footer__nav {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .Hello--style {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center; /* to center-align the text 
+        
+      }
+      .Hello--paragraph{
+          display: flex;
+        margin: 300px;
+          text-align:justify;
+         
+      }
+} */

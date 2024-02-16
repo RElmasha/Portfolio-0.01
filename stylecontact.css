@@ -410,3 +410,35 @@ margin-left: auto;
 div{
 justify-content: space-between;
 }
+
+/* ============================================================== */
+
+/* Media query for tablet screens */
+@media only screen and (max-width: 768px) and (max-height: 1024px) {
+    /* Adjustments for tablet screens */
+
+    /* For example, you can modify the layout of the header */
+    .sectionhead {
+        /* Add your styles for the header on tablet screens */
+    }
+
+    /* Adjust font sizes, margins, paddings, etc. to fit tablet screens */
+    #entetetitre h1 {
+        /* Add your styles for the heading on tablet screens */
+    }
+
+    /* Adjust input fields and labels for better visibility and interaction on tablet screens */
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        /* Add your styles for input fields and textarea on tablet screens */
+    }
+
+    /* Adjust footer layout and styling for tablet screens */
+    .piedpage {
+        /* Add your styles for the footer on tablet screens */
+    }
+}
+
+/* ============================================================== */
+
