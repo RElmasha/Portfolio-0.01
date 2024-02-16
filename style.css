@@ -1,3 +1,9 @@
+.protest-strike-regular {
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 nav ul {
     display: table;
     list-style: none;
@@ -53,8 +59,10 @@ nav ul {
   text-align: left;
   color:black;
  padding-left: 70px;
- 
-  }
+ font-weight: bold;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
   .nav__header--style{
     display: flex;
     justify-content: space-between ;
@@ -223,17 +231,26 @@ section .menu--item--style{
   
       }
   .nav__header--logo{
-   
-        font-family: Inter;
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-weight: 5rem;
         line-height: 1rem;
         letter-spacing: 0rem;
         text-align: left;
         color:black;
-       padding-left: 10px;
-       
-        }
+       padding-left: 70px;
+ font-weight: bold;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ul--item{
+  padding-right: 60px;
+  font-size: 1.5rem;
+  font-weight: 5rem;
+  line-height: 1rem;
+    letter-spacing: 0rem;
+    text-align: right;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
 /* body */
    .main--style{
     display: flex;
