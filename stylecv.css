@@ -84,10 +84,14 @@ margin-left: 90px;
 
   /*création du corp*/
 <<<<<<< HEAD
+<<<<<<< HEAD
 .title--style{
 =======
 .style--cv{
 >>>>>>> d6f5d1d (adding responsive behavior on cv page)
+=======
+.title--style{
+>>>>>>> 09ab4db (adding responsive behavior on cv page)
   width: 359px;
   height: 50px;
   top: 169px;
@@ -369,30 +373,13 @@ justify-content: space-between;
 /* ======================================= Media Query ====================================  */
 
 @media screen and (max-width: 1024px){
-  .main--style{
-    text-align: left;
-    padding: 0%;
-  }
   .ul--item{
-    max-width: 100px;
+  max-inline-size: 30%;
+  max-width: 100px;
   max-height: 100%;
-  max-inline-size: 20%;
-  top: 5px;
-left: 69px;
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0em;
-  text-align: left;
-  color:black;
-  background-color: aquamarine;
-  }
-  .nav__header--logo{
-    max-width: 100px;
-  max-height: 100%;
-  max-inline-size: 20%;
-  padding-right: 0%;
+  padding-left: 15%;
+  padding-left: 15%;
+  padding-bottom: 19%;
   margin-left: 0%;
   font-family: Inter;
   font-size: 20px;
@@ -400,8 +387,30 @@ left: 69px;
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
-  color:black;
+  color: black;
   }
+  .nav__header--logo{
+  max-width: 100px;
+  max-height: 100%;
+  max-inline-size: 20%;
+  padding-right: 0%;
+  margin-left: 0%;
+  padding-bottom: 19%;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:black;
+  font-weight: bold;
+  }
+
+.title--style{
+  padding-top: 9%;
+  background-color: aqua;
+}
+
 .main__langues--listelangue{
   text-align: left;
   padding: 0;
@@ -424,12 +433,12 @@ left: 69px;
   margin-right: 30%;
 }
 .nav__footer--followUs{
-  max-width: 2000px;
-  max-height: 100%;
-  max-inline-size: 50%;
+  max-width: 200px;
+  max-height: 200%;
+  max-inline-size: 200%;
   padding-right: 20%;
   margin-right: 30%;
-  justify-content: space-between;
+justify-content: space-between;
   background-color: aquamarine;
 }
 .copyright--style{
