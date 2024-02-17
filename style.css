@@ -5,350 +5,817 @@
 }
 
 nav ul {
-    display: table;
-    list-style: none;
-    overflow: hidden;
-    padding-top: 0;
-    margin-right: 0%;
-    margin-top: 0%;
+  display: table;
+  list-style: none;
+  overflow: hidden;
+  padding-top: 0;
+  margin-right: 0%;
+  margin-top: 0%;
 }
-  nav li {
-    display: table-cell;
-    width: 1%;
-  }
-  nav li a {
-    display: block;
-    color: #061016;
-    text-decoration: none;
-    text-align: center;
-    line-height: 36px;
-    padding: 0 10px;
-  }
-  nav li a:hover {
-    color: #ecf0f1;
-  }
-  
-  nav .nav__header--cv + .nav__header--projet::before {
-    content: "|";
-    float: left;
-    margin-top: 15px;
-    width: 3px;
-    line-height: 7px;
-  }
-  nav .nav__header--projet + .nav__header--contact::before {
-    content: "|";
-    float: left;
-   
-    margin-top: 15px;
-    width: 3px;
-    line-height: 7px;
-  }
-  
-  #barcv{
-    border-top: 1px;
-    margin-top: 1px;
-  }
-  
-  .nav__header--logo{
-   
+
+nav li {
+  display: table-cell;
+  width: 1%;
+}
+
+nav li a {
+  display: block;
+  color: #061016;
+  text-decoration: none;
+  text-align: center;
+  line-height: 36px;
+  padding: 0 10px;
+}
+
+nav li a:hover {
+  color: #ecf0f1;
+}
+
+nav .nav__header--cv+.nav__header--projet::before {
+  content: "|";
+  float: left;
+  margin-top: 15px;
+  width: 3px;
+  line-height: 7px;
+}
+
+nav .nav__header--projet+.nav__header--contact::before {
+  content: "|";
+  float: left;
+
+  margin-top: 15px;
+  width: 3px;
+  line-height: 7px;
+}
+
+#barcv {
+  border-top: 1px;
+  margin-top: 1px;
+}
+
+.nav__header--logo {
+
   font-family: Inter;
   font-size: 2rem;
   font-weight: 10rem;
   line-height: 2rem;
   letter-spacing: 0rem;
   text-align: left;
-  color:black;
- padding-left: 70px;
- font-weight: bold;
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  padding-left: 70px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-  .nav__header--style{
-    display: flex;
-    justify-content: space-between ;
-    padding-top: 40px;
+.nav__header--style {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
   background-color: white;
 
-    }
-  .ul--item{
-    
-      font-family: Inter;
-      font-size: 2rem;
-      font-weight: 10rem;
-      line-height: 2rem;
-      letter-spacing: 0rem;
-      text-align: left;
-      color:black;
-     
-    }
-
-.picture--mypicture{/*nous appelons la classe fig1 créée dans notre HTML, puis nous rendons l"image flexible (flex), puis nous la cenrons.*/
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-        /* margin-top: 100px; */
 }
-.picture--mypicture{/*nous determinons la taille de l'image en appelant l'attribut img.*/
-        width: 284px;
-        height: 284px;
-        left: 219px;
-        outline: 1px ridge rgb(255, 254, 255);
-        border-radius: 50%;
-        background-color: gray;
-        filter: grayscale(100%);
-      /*   margin-left: 300px;
+
+.ul--item {
+
+  font-family: Inter;
+  font-size: 2rem;
+  font-weight: 10rem;
+  line-height: 2rem;
+  letter-spacing: 0rem;
+  text-align: left;
+  color: black;
+
+}
+
+.picture--mypicture {
+  /*nous appelons la classe fig1 créée dans notre HTML, puis nous rendons l"image flexible (flex), puis nous la cenrons.*/
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  /* margin-top: 100px; */
+}
+
+.picture--mypicture {
+  /*nous determinons la taille de l'image en appelant l'attribut img.*/
+  width: 284px;
+  height: 284px;
+  left: 219px;
+  outline: 1px ridge rgb(255, 254, 255);
+  border-radius: 50%;
+  background-color: gray;
+  filter: grayscale(100%);
+  /*   margin-left: 300px;
         padding: 1px;   */
 }
-/* .Hello--style{
-       position:absolute;
-       padding-top: 20px;
-        color: #593E03;
-        text-align: center;
-        margin: auto;
-        text-align:justify;
-        margin-left: 650px;
-        margin-right: 300px;
-    } */
-.Hello--word{
-        font-size: 3rem;
-        font-weight: bold;
-       /*  margin-top: 1px;
+
+.Hello--word {
+  font-size: 3rem;
+  font-weight: bold;
+  /*  margin-top: 1px;
         margin-bottom: 20px; */
-    }
-.Hello--apropos{
-        font-size: 1.5rem;
-        font-weight: bold;
-       /*  margin-top: 1px;
-        margin-bottom: 1px; */
-    }
-.Hello--paragraph{
-        font-size: 0.9rem;
-        font-weight: lighter;
-        font-style: oblique;
-        line-height: 20pt;/*nous definisons les interligne*/
-        /* margin-top: 7px;
-        margin-right: auto;
-        margin-bottom: 60px; */
-    }
-
-    .main--style{
-      display: flex;
-      justify-content: space-between;
-      max-width: 900px;
-      gap: 40px;
-      margin: auto;
-      margin-top: 150px;
-    }
-
-section .menu--item--style{
-        display: flex;
-        gap: 1rem;
-    }
-    section .menu--item{
-        max-height: 50px;
-        max-width: 50px;
-        padding: 2rem;
-        text-decoration: none;
-        border-radius: 70px;
-        color: black;
-        text-align: center;
-        border: 1px black solid;
-    }
-    section .menu--item--cv{
-      background-color: rgb(227, 238, 70);
-  }
-    section .menu--item--projet{
-        background-color: rgb(255, 0, 0);
-    }
-    section .menu--item--contact{
-        background-color: rgb(0, 174, 255);
-    }
-
-  /*   Start footer */
-    .footer--style{
-        position: absolute;
-        bottom: 0%;
-        margin-bottom: 0%;
-        padding-bottom: 0%;
-        top: 100%;
-        width: 92%;
-        height: 3px;
-        margin-top: 100px;
-        padding-top: 100px;
-        
-    }
-    
-    /*ici, je*/
-    .hr{
-        border-bottom: 1px solid black;
-        width: 92%;
-        background-color: #2980b9;
-    }
-    
-    /*ici, j'organise l'alignement de mon pied de page*/
-    .footer__nav{
-    display: flex;
-    flex-direction: row;
-    background-color: white;
-    margin-top: 50px;
-    margin-left: 90px;
-    
-        }
-    
-    .footer--item{
-        color: black;
-        text-decoration: none;
-        word-spacing: normal;
-        margin-right: auto; 
-        margin-left: auto;
-        font-size: 1.2rem;
-        font-weight: bold;
-    }
-   
-    iconify-icon{
-    color: black;
-    }
-    #copyright{
-    margin-left: 100px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: black;
-    margin-right: auto;
-    margin-left: auto;
-    }
-    div{
-    justify-content: space-between;
-    }
-    
-/* "============================== Media Query table =======================================" */
-@media screen and (max-width: 769px) {
-    /* Ici commence l"entête */
-    .nav__header--style{
-      display: flex;
-      justify-content: space-between ;
-      padding-top: 20px;
-    background-color: white;
-  
-      }
-  .nav__header--logo{
-        font-size: 1.5rem;
-        font-weight: 5rem;
-        line-height: 1rem;
-        letter-spacing: 0rem;
-        text-align: left;
-        color:black;
-       padding-left: 70px;
- font-weight: bold;
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.ul--item{
-  padding-right: 60px;
+
+.Hello--apropos {
   font-size: 1.5rem;
-  font-weight: 5rem;
-  line-height: 1rem;
-    letter-spacing: 0rem;
-    text-align: right;
-    color:black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-/* body */
-   .main--style{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align:center ;
-    max-width: 50%;
-    margin-top: 50px;
-    padding: auto;
-   }
- 
-  .Hello--paragraph{
-    font-size: 0.9rem;
-    font-weight: lighter;
-    font-style: oblique;
-    line-height: 20pt;
-    
+  font-weight: bold;
+  /*  margin-top: 1px;
+        margin-bottom: 1px; */
 }
 
-/*=============== "precising some behavior on the container Hello"======================== */
-.footer__nav--display{
-    display: flex;
-        flex-direction: column;
-       
-        text-align: center;
-        line-height: 2.5;
-}
-.footer--style{
-  max-width:100%;
-    margin:0%;
-    padding: 0%;
-   
-}
-}
-
-/* "============================== Media Query less then table =======================================" */
-  /* Ici commence l"entête */
-  @media screen and (max-width: 375px) {
-  .nav__header--style{
-    display: flex;
-  background-color: white;
-  flex-direction: column;
-align-items: center;
-justify-content: space-between;
-    }
-.nav__header--logo{
-  display: flex;
-  font-size: 1rem;
-  justify-content: center;
-  padding: 0%;
-  color:black;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.ul--item{
-font-size: 1rem;
-  text-align: center;
-  color:black;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-/* body */
- .main--style{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align:center ;
-  max-width: 50%;
-  margin-top: 70px;
-  padding: auto;
- }
-
-.Hello--paragraph{
+.Hello--paragraph {
   font-size: 0.9rem;
   font-weight: lighter;
   font-style: oblique;
   line-height: 20pt;
-}
-.main--style{
-  
-  
-  gap: 1px;
-  margin: auto;
-  margin-top: 50px;
+  /*nous definisons les interligne*/
+  /* margin-top: 7px;
+        margin-right: auto;
+        margin-bottom: 60px; */
 }
 
-/*=============== "precising some behavior on the container Hello"======================== */
-.footer__nav--display{
+.main--style {
   display: flex;
-      flex-direction: column;
-      text-align: center;
-      line-height: 2.5;
-      display: flex;
-      margin: auto;
-      padding: auto;
+  justify-content: space-between;
+  max-width: 900px;
+  gap: 40px;
+  margin: auto;
+  margin-top: 150px;
 }
-.footer--style{
-max-width:100%;
-  margin:0%;
-  padding-top: 30%;
- 
+
+section .menu--item--style {
+  display: flex;
+  gap: 1rem;
 }
+
+section .menu--item {
+  max-height: 50px;
+  max-width: 50px;
+  padding: 2rem;
+  text-decoration: none;
+  border-radius: 70px;
+  color: black;
+  text-align: center;
+  border: 1px black solid;
+}
+
+section .menu--item--cv {
+  background-color: rgb(227, 238, 70);
+}
+
+section .menu--item--projet {
+  background-color: rgb(255, 0, 0);
+}
+
+section .menu--item--contact {
+  background-color: rgb(0, 174, 255);
+}
+
+/*   Start footer */
+.footer--style {
+  position: absolute;
+  bottom: 0%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  top: 100%;
+  width: 92%;
+  height: 3px;
+  margin-top: 100px;
+  padding-top: 100px;
+
+}
+
+/*ici, je*/
+.hr {
+  border-bottom: 1px solid black;
+  width: 92%;
+  background-color: #2980b9;
+}
+
+/*ici, j'organise l'alignement de mon pied de page*/
+.footer__nav {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 90px;
+
+}
+
+.footer--item {
+  color: black;
+  text-decoration: none;
+  word-spacing: normal;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+iconify-icon {
+  color: black;
+}
+
+#copyright {
+  margin-left: 100px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div {
+  justify-content: space-between;
+}
+
+/* "============================== Media Query table =======================================" */
+@media screen and (max-width: 769px) {
+
+  /* Ici commence l"entête */
+  .nav__header--style {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    background-color: white;
+
+  }
+
+  .nav__header--logo {
+    font-size: 1.5rem;
+    font-weight: 5rem;
+    line-height: 1rem;
+    letter-spacing: 0rem;
+    text-align: left;
+    color: black;
+    padding-left: 70px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .ul--item {
+    padding-right: 60px;
+    font-size: 1.5rem;
+    font-weight: 5rem;
+    line-height: 1rem;
+    letter-spacing: 0rem;
+    text-align: right;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* body */
+  .main--style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 50%;
+    margin-top: 50px;
+    padding: auto;
+  }
+
+  .Hello--paragraph {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    font-style: oblique;
+    line-height: 20pt;
+
+  }
+
+  /*=============== "precising some behavior on the container Hello"======================== */
+  .footer__nav--display {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    line-height: 2.5;
+  }
+
+  .footer--style {
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  /* Ici commence l"entête */
+  .nav__header--style {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    background-color: white;
+
+  }
+
+  .nav__header--logo {
+    font-size: 1.5rem;
+    font-weight: 5rem;
+    line-height: 1rem;
+    letter-spacing: 0rem;
+    text-align: left;
+    color: black;
+    padding-left: 70px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .ul--item {
+    padding-right: 60px;
+    font-size: 1.5rem;
+    font-weight: 5rem;
+    line-height: 1rem;
+    letter-spacing: 0rem;
+    text-align: right;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* body */
+  .main--style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 50%;
+    margin-top: 50px;
+    padding: auto;
+  }
+
+  .Hello--paragraph {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    font-style: oblique;
+    line-height: 20pt;
+
+  }
+
+  /*=============== "precising some behavior on the container Hello"======================== */
+  .footer__nav--display {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    line-height: 2.5;
+  }
+
+  .footer--style {
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+
+  }
+}
+
+@media screen and (max-width: 820px) {
+
+  /* Ici commence l"entête */
+  .nav__header--style {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    background-color: white;
+
+  }
+
+  .nav__header--logo {
+    font-size: 1.5rem;
+    font-weight: 5rem;
+    line-height: 1rem;
+    letter-spacing: 0rem;
+    text-align: left;
+    color: black;
+    padding-left: 70px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .ul--item {
+    padding-right: 60px;
+    font-size: 1.5rem;
+    font-weight: 5rem;
+    line-height: 1rem;
+    letter-spacing: 0rem;
+    text-align: right;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* body */
+  .main--style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 50%;
+    margin-top: 50px;
+    padding: auto;
+  }
+
+  .Hello--paragraph {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    font-style: oblique;
+    line-height: 20pt;
+
+  }
+
+  /*=============== "precising some behavior on the container Hello"======================== */
+  .footer__nav--display {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    line-height: 2.5;
+  }
+
+  .footer--style {
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+
+  }
+}
+
+@media screen and (max-width: 834px) {
+
+  /* Ici commence l"entête */
+  .nav__header--style {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    background-color: white;
+
+  }
+
+  .nav__header--logo {
+    font-size: 1.5rem;
+    font-weight: 5rem;
+    line-height: 1rem;
+    letter-spacing: 0rem;
+    text-align: left;
+    color: black;
+    padding-left: 70px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .ul--item {
+    padding-right: 60px;
+    font-size: 1.5rem;
+    font-weight: 5rem;
+    line-height: 1rem;
+    letter-spacing: 0rem;
+    text-align: right;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* body */
+  .main--style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 50%;
+    margin-top: 50px;
+    padding: auto;
+  }
+
+  .Hello--paragraph {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    font-style: oblique;
+    line-height: 20pt;
+
+  }
+
+  /*=============== "precising some behavior on the container Hello"======================== */
+  .footer__nav--display {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    line-height: 2.5;
+  }
+
+  .footer--style {
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+
+  }
+}
+
+
+/* "============================== Media Query less then table =======================================" */
+/* Ici commence l"entête */
+@media screen and (max-width: 375px) {
+  .nav__header--style {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav__header--logo {
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    padding: 0%;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .ul--item {
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* body */
+  .main--style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 50%;
+    margin-top: 70px;
+    padding: auto;
+  }
+
+  .Hello--paragraph {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    font-style: oblique;
+    line-height: 20pt;
+  }
+
+  .main--style {
+
+
+    gap: 1px;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  /*=============== "precising some behavior on the container Hello"======================== */
+  .footer__nav--display {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2.5;
+    display: flex;
+    margin: auto;
+    padding: auto;
+  }
+
+  .footer--style {
+    max-width: 100%;
+    margin: 0%;
+    padding-top: 30%;
+
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .nav__header--style {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav__header--logo {
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    padding: 0%;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .ul--item {
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* body */
+  .main--style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 50%;
+    margin-top: 70px;
+    padding: auto;
+  }
+
+  .Hello--paragraph {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    font-style: oblique;
+    line-height: 20pt;
+  }
+
+  .main--style {
+
+
+    gap: 1px;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  /*=============== "precising some behavior on the container Hello"======================== */
+  .footer__nav--display {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2.5;
+    display: flex;
+    margin: auto;
+    padding: auto;
+  }
+
+  .footer--style {
+    max-width: 100%;
+    margin: 0%;
+    padding-top: 30%;
+
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav__header--style {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .nav__header--logo {
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    padding: 0%;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: ;
+  }
+
+  .ul--item {
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* body */
+  .main--style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 50%;
+    margin-top: 70px;
+    padding: auto;
+  }
+
+  .Hello--paragraph {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    font-style: oblique;
+    line-height: 20pt;
+  }
+
+  .main--style {
+
+
+    gap: 1px;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  /*=============== "precising some behavior on the container Hello"======================== */
+  .footer__nav--display {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2.5;
+    display: flex;
+    margin: auto;
+    padding: auto;
+  }
+
+  .footer--style {
+    max-width: 100%;
+    margin: 0%;
+    padding-top: 30%;
+
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 320px) {
+  .nav__header--style {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .nav__header--logo {
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    padding: 0%;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: ;
+  }
+
+  .picture--mypicture {
+    /*nous appelons la classe fig1 créée dans notre HTML, puis nous rendons l"image flexible (flex), puis nous la cenrons.*/
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* margin-top: 100px; */
+  }
+  
+  .picture--mypicture {
+    /*nous determinons la taille de l'image en appelant l'attribut img.*/
+    width: 184px;
+    height: 184px;
+    outline: 1px ridge rgb(255, 254, 255);
+    border-radius: 50%;
+    background-color: gray;
+    filter: grayscale(100%);
+    /*   margin-left: 300px;
+          padding: 1px;   */
+  }
+
+  .ul--item {
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* body */
+  .main--style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width:50%;
+    margin-top: 60px;
+    padding: auto;
+  }
+
+  .Hello--paragraph {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    font-style: oblique;
+    line-height: 20pt;
+    max-width:100%;
+    margin: 0%;
+    padding: 0%;
+    justify-content: space-between;
+   
+  }
+
+  .main--style {
+
+
+    gap: 1px;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  /*=============== "precising some behavior on the container Hello"======================== */
+  .footer__nav--display {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2.5;
+    display: flex;
+    margin: auto;
+    padding: auto;
+  }
+
+  .footer--style {
+    max-width: 100%;
+    margin: 0%;
+    padding-top: 70%;
+
+  }
 }
