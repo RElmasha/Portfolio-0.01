@@ -1,0 +1,274 @@
+.protest-strike-regular {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  nav ul {
+    display: table;
+    list-style: none;
+    overflow: hidden;
+    padding-top: 0;
+    margin-right: 0%;
+    margin-top: 0%;
+  }
+  
+  nav li {
+    display: table-cell;
+    width: 1%;
+  }
+  
+  nav li a {
+    display: block;
+    color: #061016;
+    text-decoration: none;
+    text-align: center;
+    line-height: 36px;
+    padding: 0 10px;
+  }
+  
+  nav li a:hover {
+    color: #ecf0f1;
+  }
+  
+  nav .nav__header--cv+.nav__header--projet::before {
+    content: "|";
+    float: left;
+    margin-top: 15px;
+    width: 3px;
+    line-height: 7px;
+  }
+  
+  nav .nav__header--projet+.nav__header--contact::before {
+    content: "|";
+    float: left;
+  
+    margin-top: 15px;
+    width: 3px;
+    line-height: 7px;
+  }
+  
+  .bar--cv {
+    border-top: 1px;
+    margin-top: 1px;
+  }
+  
+  .nav__header--logo {
+  
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 10rem;
+    line-height: 2rem;
+    letter-spacing: 0rem;
+    text-align: left;
+    color: black;
+    padding-left: 70px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .nav__header--style {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    background-color: white;
+  
+  }
+  
+  .ul--item {
+  
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 10rem;
+    line-height: 2rem;
+    letter-spacing: 0rem;
+    text-align: left;
+    color: black;
+  
+  }
+  
+    /*création du corp*/
+  .main__title--style{
+    width: 359px;
+    height: 50px;
+    top: 169px;
+    left: 183px;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+      
+  }
+  
+  .main--item{
+    width: 386.96px;
+    height: 72px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+   margin-top: 60px;
+      
+  }
+  .main__langues--listelangue{
+    list-style: circle;
+    overflow: visible;
+    color: black;
+  }
+  .main--style{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  
+  .footer--style {
+    position: absolute;
+    bottom: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    top: 150%;
+    width: 92%;
+    height: 3px;
+    margin-top: 100px;
+    padding-top: 100px;
+  
+  }
+  
+  /*ici, je*/
+  .hr {
+    border-bottom: 1px solid black;
+    width: 92%;
+    background-color: #070a0c;
+  }
+  
+  /*ici, j'organise l'alignement de mon pied de page*/
+  .footer__nav {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 90px;
+  
+  }
+  
+  .footer--item {
+    color: black;
+    text-decoration: none;
+    word-spacing: normal;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  iconify-icon {
+    color: black;
+  }
+  
+ .footer--copyright{
+    margin-left: 100px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  div {
+    justify-content: space-between;
+  }
+  
+  /* ======================================= Media Query ====================================  */
+  
+  @media screen and (max-width: 769px) {
+
+    /* Ici commence l"entête */
+    .nav__header--style {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 20px;
+      background-color: white;
+  
+    }
+  
+    .nav__header--logo {
+      font-size: 1rem;
+      font-weight: 20rem;
+      line-height: 3rem;
+      letter-spacing: 0rem;
+      text-align: left;
+      color: black;
+      padding-left: 70px;
+      font-weight: bold;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+    .ul--item {
+      padding-right: 60px;
+      font-size: 1.5rem;
+      font-weight: 5rem;
+      line-height: 1rem;
+      letter-spacing: 0rem;
+      text-align: right;
+      color: black;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+    /* body */
+    .main--style {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      padding: 0%;
+      margin: 0%;
+      margin-left: 5%;
+      max-width: 100%;
+      margin-top: 50px;
+ 
+    }
+    .bar--style{
+      border-bottom: 1px solid black;
+  width: 92%;
+  margin: 0 auto; 
+    }
+    .main__langues--listelangue{
+      list-style-type: style;
+      overflow: visible;
+      padding-top: 0;
+
+    margin-left: 0%;
+   
+    }
+    .list--style{
+      padding: 0%;
+      margin: 0%;
+     
+    }
+    /*=============== "precising some behavior on the container Hello"======================== */
+    .footer__nav--display {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      line-height: 2.5;
+      padding: 0%;
+      margin: 0%;
+    }
+  
+    .footer--style {
+      max-width: 100%;
+      margin: 0%;
+      padding: 0%;
+  
+    }
+  }

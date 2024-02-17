@@ -48,7 +48,7 @@ nav .nav__header--projet+.nav__header--contact::before {
   line-height: 7px;
 }
 
-#barcv {
+.bar--cv {
   border-top: 1px;
   margin-top: 1px;
 }
@@ -511,7 +511,7 @@ div {
 
 
 /* "============================== Media Query less then table =======================================" */
-/* Ici commence l"entête */
+
 @media screen and (max-width: 375px) {
   .nav__header--style {
     display: flex;
@@ -669,7 +669,6 @@ div {
     padding: 0%;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: ;
   }
 
   .ul--item {
@@ -813,7 +812,7 @@ div {
     padding: 0%;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: ;
+ 
   }
 
   .picture--mypicture {
