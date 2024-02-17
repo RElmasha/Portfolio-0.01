@@ -86,13 +86,7 @@
     color: black;
   
   }
-nav{
-width: 1200px;
-height: 50px;
-top: 2px;
-left: 88px;
 
-}
 .main--style{
     padding-top: 5%;
 }
@@ -212,7 +206,7 @@ border: 20px solid #DFDFDF;
     .nav__header--style {
       display: flex;
       justify-content: space-between;
-      padding-top: 20px;
+      
       background-color: white;
   
     }
@@ -266,7 +260,7 @@ border: 20px solid #DFDFDF;
     gap: 10%;
     max-width: 73%;
     margin-top: 30px;
-    padding: auto;
+    
       }
     
 
@@ -274,17 +268,16 @@ border: 20px solid #DFDFDF;
     .footer__nav--display {
         display: flex;
         flex-direction: row;
-    gap: 1%;
         text-align: center;
         line-height: 2.5;
+        justify-content: space-between;
+        gap: 5%;
+        max-width:300%;
       }
     
-      .footer--style {
-        max-width: 100%;
-        margin: 0%;
-        padding: 0%;
-        gap: 1%;
+      .footer--style  {
+        max-width:100%;
+       
+    
       }
     }
- 
-  
