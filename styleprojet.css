@@ -1,89 +1,91 @@
-nav ul {
+.protest-strike-regular {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  nav ul {
     display: table;
     list-style: none;
     overflow: hidden;
     padding-top: 0;
     margin-right: 0%;
     margin-top: 0%;
-}
+  }
+  
   nav li {
     display: table-cell;
     width: 1%;
   }
+  
   nav li a {
     display: block;
-    color: #2980b9;
+    color: #061016;
     text-decoration: none;
     text-align: center;
     line-height: 36px;
     padding: 0 10px;
   }
+  
   nav li a:hover {
     color: #ecf0f1;
-    background: #2980b9;
   }
-  nav #cv,#proj,#contact{
-    width: 391px;
-height: 39px;
-top: 5px;
-left: 69px;
-font-family: Inter;
-font-size: 22px;
-font-weight: 200;
-line-height: 39px;
-letter-spacing: 0em;
-text-align: left;
-margin-right: 0%;
-  }
- 
-#cv + #proj::before {
+  
+  nav .nav__header--cv+.nav__header--projet::before {
     content: "|";
     float: left;
     margin-top: 15px;
     width: 3px;
     line-height: 7px;
   }
-nav #proj + #contact::before {
+  
+  nav .nav__header--projet+.nav__header--contact::before {
     content: "|";
     float: left;
-   
+  
     margin-top: 15px;
     width: 3px;
     line-height: 7px;
-}
-
-#contact{
-width: 391px;
-height: 39px;
-top: 5px;
-left: 69px;
-font-family: Inter;
-font-size: 22px;
-font-weight: 200;
-line-height: 39px;
-letter-spacing: 0em;
-text-align: left;
-padding-top: 1%;
-padding-right: 1%;
-}
-#barcv{
+  }
+  
+  .bar--cv {
     border-top: 1px;
     margin-top: 1px;
-}
-
-#nomcomplet{
-    width: 1348px;
-height: 50px;
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
-color:black;
-padding-right: 60%;
-margin-left: 0%;
-}
+  }
+  
+  .nav__header--logo {
+  
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 10rem;
+    line-height: 2rem;
+    letter-spacing: 0rem;
+    text-align: left;
+    color: black;
+    padding-left: 70px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .nav__header--style {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    background-color: white;
+  
+  }
+  
+  .ul--item {
+  
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 10rem;
+    line-height: 2rem;
+    letter-spacing: 0rem;
+    text-align: left;
+    color: black;
+  
+  }
 nav{
 width: 1200px;
 height: 50px;
@@ -92,58 +94,17 @@ left: 88px;
 
 }
 
-main{
-gap: 22px;
 
-}
-.projetcorp{
-top: 166px;
-left: 183px;
+.main__div--modify{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
 gap: 85px;
-}
+    margin: 2%;
+    margin-top: 2%;
+  }
 
-.projetcorp{/*nous appelons la classe fig1 créée dans notre HTML, puis nous rendons l"image flexible (flex), puis nous la cenrons.*/
-display: flex;
-width: 493.88px;
-height: 306px;
-top: 7px;
-
-width: 1377.87px;
-height: 331px;
-flex-direction: row;
-}
-#projetitel{
-    width: 121px;
-height: 50px;
-font-family: Inter;
-font-size: 28px;
-font-weight: 700;
-line-height: 50px;
-letter-spacing: 0em;
-text-align: left;
-margin-left: 8.2%;
-
-}
-#norman{
-width: 209.62px;
-height: 43px;
-top: 7px;
-margin-left: 8.2%;
-
-font-family: Inter;
-font-size: 24px;
-font-weight: 700;
-line-height: 43px;
-letter-spacing: 0em;
-text-align: left;
-
-}
-#monpragraph{
-    position: absolute;
-    width: 493.88px;
-    height: 252px;
-    top: 250px;
-    left: 120px;
+  .div--paragraph{
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
@@ -151,21 +112,23 @@ text-align: left;
     letter-spacing: 0em;
     text-align: left;
     text-align: justify;
-}
-#monimage1{
-position: absolute;
-width: 438.87px;
-height: 300px;
-left: 720px;
-top: 200px;
+    max-width:650%;
+   
+
+} 
+.mypicture--style{
+display: flex;
+height: 100%;
+max-width:150%;
 border: 20px;
 background: #DFDFDF;
 border: 20px solid #DFDFDF;
-padding-right:0%;
+
 
 }
 
-.piedpage{
+/*   Start footer */
+.footer--style {
     position: absolute;
     bottom: 0%;
     margin-bottom: 0%;
@@ -175,68 +138,50 @@ padding-right:0%;
     height: 3px;
     margin-top: 100px;
     padding-top: 100px;
-    
-}
-
-/*ici, je*/
-.hr{
+  
+  }
+  
+  /*ici, je*/
+  .hr {
     border-bottom: 1px solid black;
     width: 92%;
-}
-
-/*ici, j'organise l'alignement de mon pied de page*/
-nav{
-display: flex;
-flex-direction: row;
-background-color: white;
-margin-top: 50px;
-margin-left: 90px;
-
-    }
-
-#tel,
-#couriel,
-#contact{
+    background-color: #2980b9;
+  }
+  
+  /*ici, j'organise l'alignement de mon pied de page*/
+  .footer__nav {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 90px;
+  
+  }
+  
+  .footer--item {
     color: black;
     text-decoration: none;
     word-spacing: normal;
     margin-right: auto;
-margin-left: auto;
-padding-right: auto;
-padding-left: auto;
-}
-#tel{
+    margin-left: auto;
     font-size: 1.2rem;
     font-weight: bold;
-    
-}
-#couriel{
+  }
+  
+  iconify-icon {
+    color: black;
+  }
+  
+  .footer--copyright {
+    margin-left: 100px;
     font-size: 1.2rem;
     font-weight: bold;
-    
-}
-
-#suiveznous{  
-
-font-size: 1.2rem;
-font-weight: bold;
-text-decoration: none;
-margin-right: auto;
-margin-left: auto;
-
-}
-iconify-icon{
-color: black;
-}
-#copyright{
-margin-left: 100px;
-font-size: 1.2rem;
-font-weight: bold;
-color: black;
-margin-right: auto;
-margin-left: auto;
-}
-div{
-justify-content: space-between;
-}
-
+    color: black;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  div {
+    justify-content: space-between;
+  }
+  
