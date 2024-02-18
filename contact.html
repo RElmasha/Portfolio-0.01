@@ -23,7 +23,7 @@
     <!--créer le corpt de la page-->
     <main>
     
-  <div id= "entetetitre">     
+  <div class= "entetetitre--modify">     
 <h1 id="contactbody">contact</h1> 
 <label id="labelcontact" >Phone<br></label> 
 <a id="telbody" href="tel:+243818086643">+243818086643</a><br>
@@ -31,34 +31,36 @@
 <a id="courielbody" href="mailto:rachelmashaury1@gmal.com">machelmashaury1@gmal.com</a>
 </div> 
 
-<form action="url:" method="get">
-<div>
-<p id="prenombox">
-    <label for="prenom">First Name:</label><br> <!--placeholder permet de preremplire un champ!-->
-    <input type="text" name="prenom" id="prenom" placeholder="Ex. : Masha" autofocus required>
-</p>
-<p id="mailbox">
-    <label for="mail">Email:</label><br>
-     <input type="email" name="mail" id="mail" placeholder="Ex. : mashara@gmail.com"  required>
-    </p>
-    <p id="messagebox">
-        <label for="message">Mesage </label><br>
-       <textarea name="message" id="message"></textarea>
-    </p>
-</div>
+<form action="url:" method="get" class="form--modify">
+    <div>
+        <p id="prenombox">
+            <label for="prenom">First Name:</label><br>
+            <input type="text" name="prenom" id="prenom" placeholder="Ex. : Masha" autofocus required>
+        </p>
+        <p id="mailbox">
+            <label for="mail">Email:</label><br>
+            <input type="email" name="mail" id="mail" placeholder="Ex. : mashara@gmail.com" required>
+        </p>
+        <p id="messagebox">
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message"></textarea>
+        </p>
+    </div>
 
-<div>
-<p id="nombox"> 
-    <label for="nom">Last Name:</label><br><!--autofocus permet de placer automentiquement le curseur dans un un champ!-->
-    <input type="text" name="nom" id="nom" placeholder="Ex. : Mashaury" required>
-</p><!--required permet de rendre obligatoire un champ de saisie!--> 
-<p id="subjectbox">
- <label for="subject">Subject</label><br> <!--placeholder permet de preremplire un champ!-->
- <input type="text" name="subject" id="subject" required>
-</p>
-<input id="bouton" type="submit" value="Envoyer">
-</div>
- </form>
+    <div id="box1">
+        <p id="nombox"> 
+            <label for="nom">Last Name:</label><br>
+            <input type="text" name="nom" id="nom" placeholder="Ex. : Mashaury" required>
+        </p>
+        <p id="subjectbox">
+            <label for="subject">Subject:</label><br>
+            <input type="text" name="subject" id="subject" required>
+        </p>
+    </div>
+    <div class="modify--inpu">
+        <input id="bouton" type="submit" value="Envoyer">
+    </div>
+</form>
  <footer class="footer footer--style"><hr>
     <nav class="footer__nav footer__nav--display">
         <a class="footer--item" href="tel:+243818086643">Télephone<br>+243818086643</a>

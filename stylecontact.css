@@ -298,6 +298,15 @@ main{
     
    
 }
+#entetetitre{
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-right: 5%;
+  margin-left: 5px;
+  margin-bottom: 22%;
+
+}
 #box1,#box2{
     display: flex;
     flex-direction: column;
@@ -307,16 +316,15 @@ main{
     
     margin: 50px 0px 0px 50px;
 }
-form{
+.form--modify{
     display: flex;
     justify-items: center;
     justify-content: space-between;
     padding: 2% 0% 2%;
     margin: 2% 0% 2%;
     padding-right: 0%;
-    
-
 }
+
 #entetetitre{
     display: flex;
     flex-direction: column;
@@ -384,3 +392,155 @@ form{
   div {
     justify-content: space-between;
   }
+ /* ================================== MediaQuery :==================================== */
+ @media screen and (max-width: 768px) {
+  main {
+      flex-direction: column; /* Display elements in a row */
+      align-items: left; /* Center items vertically */
+  }
+  .entetetitre--modify {
+    max-width: 0%;
+  }
+  .footer__nav--display {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    line-height: 2.5;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .footer--style {
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+
+  }
+}
+@media screen and (max-width: 800px) {
+  main {
+      flex-direction: column; /* Display elements in a row */
+      align-items: left; /* Center items vertically */
+  }
+  .entetetitre--modify {
+    max-width: 0%;
+  }
+  .footer__nav--display {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    line-height: 2.5;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .footer--style {
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+
+  }
+}
+@media screen and (max-width: 820px) {
+  main {
+      flex-direction: column; /* Display elements in a row */
+      align-items: left; /* Center items vertically */
+  }
+  .entetetitre--modify {
+    max-width: 0%;
+  }
+  .footer__nav--display {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    line-height: 2.5;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .footer--style {
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+
+  }
+}
+@media screen and (max-width: 834px) {
+  main {
+      flex-direction: column; /* Display elements in a row */
+      align-items: left; /* Center items vertically */
+  }
+  .entetetitre--modify {
+    max-width: 0%;
+  }
+  .footer__nav--display {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    line-height: 2.5;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .footer--style {
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+
+  }
+}
+/* "============================== Media Query less then table =======================================" */
+
+@media screen and (max-width:  375px) {
+  .nav__header--style {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+gap: 1rem;
+  }
+
+  .nav__header--logo {
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    padding: 0%;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .ul--item {
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  main {
+      flex-direction: column; /* Display elements in a row */
+      align-items: left; /* Center items vertically */
+  }
+  .entetetitre--modify {
+    max-width: 0%;
+  }
+  .form--modify{
+    flex-direction: column; /* Display elements in a row */
+    align-items: left; /* Center items vertically */
+}
+  .footer__nav--display {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 2.5;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .footer--style {
+    max-width: 100%;
+    margin: 0%;
+    padding: 0%;
+    padding-top: 200%;
+
+  }
+}
